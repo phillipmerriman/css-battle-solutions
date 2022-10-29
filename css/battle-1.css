@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-.solution-container {
+.solution-container, a {
 	font-weight: 500;
 	color: antiquewhite;
 }
