@@ -1,47 +1,140 @@
-.number {
-    width: 400px;
-	height: 300px;
+body {
+	display: flex;
+	flex-direction: row;
+    background:#171d22;
 }
+.number {
+	width: 400px;
+	height: 300px;
+	margin: 16px;
+}
+/* NUMBER SEVEN: LEAFY TRAIL */
+.seven {
+	background: #0b2429;
+    position: relative; /* <-- not used on site */
+}
+.seven > div {
+	width: 150px;
+	height: 150px;
+	border-top-left-radius: 66.5%;
+	border-bottom-right-radius: 66.77%;
+	position: absolute;
+	top: 75px;
+}
+.a7 {
+    left: 75px;
+    background: #1a4341;
+}
+.b7 {
+    left: 125px;
+    background: #998235;
+}
+.c7 {
+    left: 175px;
+    background: #f3ac3c;
+}
+/* NUMBER EIGHT: FORKING CRAZY */
+.eight {
+	background: #6592cf;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.fork8 {
+	position: absolute;
+	background: #060f55;
+}
+.handle8 {
+	width: 20px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+.base8 {
+	height: 100px;
+	top: 50%;
+}
+.l8 {
+	right: 190px;
+	width: 80px;
+	border-bottom-left-radius: 70px;
+}
+.r8 {
+	left: 190px;
+	width: 80px;
+	border-bottom-right-radius: 70px;
+}
+.prong8 {
+	background: #060f55;
+	width: 20px;
+	height: 120px;
+	border-radius: 50px;
+	top: 50px;
+}
+.a8 {
+	left: 130px;
+}
+.b8 {
+	left: 170px;
+}
+.c8 {
+	right: 170px;
+}
+.d8 {
+	right: 130px;
+}
+.space8 {
+	width: 20px;
+	height: 160px; /* on cssbattle.dev => height: 152px; */
+	background: #6592cf;
+	border-radius: 50px;
+}
+.e8 {
+	left: 150px;
+}
+.g8 {
+	right: 150px;
+}
+/* NUMBER NINE: */
 .nine {
-    background: #222730;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	background: #222730;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .nine > div {
-    position: absolute;
+	position: absolute;
 }
 .r9 {
-    background: #4caab3;
-    width: 400px;
-    height: 53%;
+	background: #4caab3;
+	width: 400px;
+	height: 53%;
 }
 .d9 {
-    transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .b9 {
-    background: #222730;
-    width: 250px;
-    height: 250px;
+	background: #222730;
+	width: 250px;
+	height: 250px;
 }
 .l9 {
-    background: #4caab3;
-    width: 150px;
-    height: 150px;
+	background: #4caab3;
+	width: 150px;
+	height: 150px;
 }
 .c9 {
-    background: #393e46;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+	background: #393e46;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
 }
 .ten {
-    background: #62306d;
-    display: flex;
-    justify-content: center;
-    position: relative;
-
+	background: #62306d;
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
 .y10 {
 	background: #f7ec7d;
