@@ -9,6 +9,36 @@ body {
 	height: 300px;
 	margin: 16px;
 }
+/* NUMBER SIC: MISSING SLICE */
+.six {
+    background: #e3516e;
+    position: relative; /* <-- not used on site */
+}
+.six > div {
+    width: 100px;
+    height: 100px;
+}
+.bl6 {
+    background: #f7f3d7;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.tl6 {
+    background: #51b5a9;
+    border-top-left-radius: 100%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.tr6 {
+    background: #fade8b;
+    border-top-right-radius: 100%;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
 /* NUMBER SEVEN: LEAFY TRAIL */
 .seven {
 	background: #0b2429;
