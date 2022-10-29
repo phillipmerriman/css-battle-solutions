@@ -7,7 +7,6 @@ body {
 
 * {
     text-align: center;
-    overflow: hidden;
 }
 
 .container {
@@ -34,13 +33,23 @@ body {
 	border-radius: 8px;
 	box-shadow: 8px 8px 2px 1px #13181c;
 	/* box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
 }
 
-#title {
+.title {
     font-family: 'Orbitron', sans-serif;
     font-size: 100px;
     font-weight: 900;
     color: #f7ec7d;
+    text-shadow: 8px 8px #13181c;
+    /* text-shadow: 8px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.subtitle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #a3483d;
     text-shadow: 8px 8px #13181c;
     /* text-shadow: 8px 8px rgba(0, 0, 0, 0.2); */
 }
