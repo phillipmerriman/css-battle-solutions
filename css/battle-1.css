@@ -1,48 +1,62 @@
 body {
+	background: #30373d;
 	display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;
-    background:#171d22;
+	flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.solution-container {
+    font-weight: bold;
+    color: antiquewhite;
 }
 .number {
 	width: 400px;
 	height: 300px;
 	margin: 16px;
+	border: solid 8px wheat;
+	border-radius: 8px;
+	box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.2);
 }
-/* NUMBER SIC: MISSING SLICE */
+.title {
+    text-align: center;
+}
+
+/* NUMBER SIX: MISSING SLICE */
 .six {
-    background: #e3516e;
-    position: relative; /* <-- not used on site */
+	background: #e3516e;
+	position: relative; /* <-- not used on site */
 }
 .six > div {
-    width: 100px;
-    height: 100px;
+	width: 100px;
+	height: 100px;
 }
 .bl6 {
-    background: #f7f3d7;
-    border-bottom-left-radius: 100%;
-    position: absolute;
-    top: 150px;
-    left: 100px;
+	background: #f7f3d7;
+	border-bottom-left-radius: 100%;
+	position: absolute;
+	top: 150px;
+	left: 100px;
 }
 .tl6 {
-    background: #51b5a9;
-    border-top-left-radius: 100%;
-    position: absolute;
-    top: 50px;
-    left: 100px;
+	background: #51b5a9;
+	border-top-left-radius: 100%;
+	position: absolute;
+	top: 50px;
+	left: 100px;
 }
 .tr6 {
-    background: #fade8b;
-    border-top-right-radius: 100%;
-    position: absolute;
-    top: 50px;
-    left: 200px;
+	background: #fade8b;
+	border-top-right-radius: 100%;
+	position: absolute;
+	top: 50px;
+	left: 200px;
 }
+
 /* NUMBER SEVEN: LEAFY TRAIL */
 .seven {
 	background: #0b2429;
-    position: relative; /* <-- not used on site */
+	position: relative; /* <-- not used on site */
 }
 .seven > div {
 	width: 150px;
@@ -53,17 +67,18 @@ body {
 	top: 75px;
 }
 .a7 {
-    left: 75px;
-    background: #1a4341;
+	left: 75px;
+	background: #1a4341;
 }
 .b7 {
-    left: 125px;
-    background: #998235;
+	left: 125px;
+	background: #998235;
 }
 .c7 {
-    left: 175px;
-    background: #f3ac3c;
+	left: 175px;
+	background: #f3ac3c;
 }
+
 /* NUMBER EIGHT: FORKING CRAZY */
 .eight {
 	background: #6592cf;
@@ -126,7 +141,8 @@ body {
 .g8 {
 	right: 150px;
 }
-/* NUMBER NINE: */
+
+/* NUMBER NINE: TESSERACT */
 .nine {
 	background: #222730;
 	position: relative;
@@ -161,6 +177,8 @@ body {
 	height: 50px;
 	border-radius: 50%;
 }
+
+/* NUMBER TEN: CLOAKED SPIRITS */
 .ten {
 	background: #62306d;
 	display: flex;
