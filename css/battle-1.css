@@ -1,15 +1,31 @@
 body {
 	background: #30373d;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+    display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
 }
+
+* {
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 75%;
+}
+
+.solutions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .solution-container {
-    font-weight: bold;
-    color: antiquewhite;
+	font-weight: 500;
+	color: antiquewhite;
 }
+
 .number {
 	width: 400px;
 	height: 300px;
@@ -18,19 +34,65 @@ body {
 	border-radius: 8px;
 	box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.title {
-    text-align: center;
+
+#title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #f7ec7d;
+    text-shadow: 8px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+/* NUMBER FIVE: ACID RAIN */
+.five {
+	background: #0b2429;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative; /* <-- not used on site */
+}
+
+.five > div {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	background: #f3ac3c;
+}
+
+.f5 {
+	border-top-left-radius: 65%;
+	border-bottom-left-radius: 65%;
+	border-bottom-right-radius: 65%;
+}
+
+.x5 {
+	top: 150px;
+	right: 200px;
+}
+
+.y5 {
+	background: #998235 !important; /* <--!important not needed on site */
+}
+
+.b5 {
+	border-radius: 50%;
+	bottom: 150px;
+	left: 200px;
+}
+
 
 /* NUMBER SIX: MISSING SLICE */
 .six {
 	background: #e3516e;
 	position: relative; /* <-- not used on site */
 }
+
 .six > div {
 	width: 100px;
 	height: 100px;
 }
+
 .bl6 {
 	background: #f7f3d7;
 	border-bottom-left-radius: 100%;
@@ -38,6 +100,7 @@ body {
 	top: 150px;
 	left: 100px;
 }
+
 .tl6 {
 	background: #51b5a9;
 	border-top-left-radius: 100%;
@@ -45,6 +108,7 @@ body {
 	top: 50px;
 	left: 100px;
 }
+
 .tr6 {
 	background: #fade8b;
 	border-top-right-radius: 100%;
@@ -53,11 +117,13 @@ body {
 	left: 200px;
 }
 
+
 /* NUMBER SEVEN: LEAFY TRAIL */
 .seven {
 	background: #0b2429;
 	position: relative; /* <-- not used on site */
 }
+
 .seven > div {
 	width: 150px;
 	height: 150px;
@@ -66,18 +132,22 @@ body {
 	position: absolute;
 	top: 75px;
 }
+
 .a7 {
 	left: 75px;
 	background: #1a4341;
 }
+
 .b7 {
 	left: 125px;
 	background: #998235;
 }
+
 .c7 {
 	left: 175px;
 	background: #f3ac3c;
 }
+
 
 /* NUMBER EIGHT: FORKING CRAZY */
 .eight {
@@ -86,30 +156,36 @@ body {
 	justify-content: center;
 	position: relative;
 }
+
 .fork8 {
 	position: absolute;
 	background: #060f55;
 }
+
 .handle8 {
 	width: 20px;
 	height: 100px;
 	position: absolute;
 	bottom: 0;
 }
+
 .base8 {
 	height: 100px;
 	top: 50%;
 }
+
 .l8 {
 	right: 190px;
 	width: 80px;
 	border-bottom-left-radius: 70px;
 }
+
 .r8 {
 	left: 190px;
 	width: 80px;
 	border-bottom-right-radius: 70px;
 }
+
 .prong8 {
 	background: #060f55;
 	width: 20px;
@@ -117,30 +193,38 @@ body {
 	border-radius: 50px;
 	top: 50px;
 }
+
 .a8 {
 	left: 130px;
 }
+
 .b8 {
 	left: 170px;
 }
+
 .c8 {
 	right: 170px;
 }
+
 .d8 {
 	right: 130px;
 }
+
 .space8 {
 	width: 20px;
 	height: 160px; /* on cssbattle.dev => height: 152px; */
 	background: #6592cf;
 	border-radius: 50px;
 }
+
 .e8 {
 	left: 150px;
 }
+
 .g8 {
 	right: 150px;
 }
+
 
 /* NUMBER NINE: TESSERACT */
 .nine {
@@ -150,33 +234,40 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 .nine > div {
 	position: absolute;
 }
+
 .r9 {
 	background: #4caab3;
 	width: 400px;
 	height: 53%;
 }
+
 .d9 {
 	transform: rotate(45deg);
 }
+
 .b9 {
 	background: #222730;
 	width: 250px;
 	height: 250px;
 }
+
 .l9 {
 	background: #4caab3;
 	width: 150px;
 	height: 150px;
 }
+
 .c9 {
 	background: #393e46;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
+
 
 /* NUMBER TEN: CLOAKED SPIRITS */
 .ten {
@@ -185,23 +276,28 @@ body {
 	justify-content: center;
 	position: relative;
 }
+
 .y10 {
 	background: #f7ec7d;
 	position: absolute;
 	bottom: 0px;
 }
+
 .base10 {
 	width: 300px;
 	height: 100px;
 }
+
 .shaft10 {
 	width: 100px;
 	height: 200px;
 }
+
 .c10 {
 	border-radius: 50%;
 	position: absolute;
 }
+
 .b10 {
 	width: 100px;
 	height: 100px;
@@ -209,24 +305,31 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
 .s10 {
 	width: 60px;
 	height: 60px;
 }
+
 .r10 {
 	background: #aa445f;
 }
+
 .o10 {
 	background: #e38f66;
 }
+
 .w10 {
 	left: 50px;
 	top: 150px;
 }
+
 .x10 {
 	right: 50px;
 	top: 150px;
 }
+
 .z10 {
 	top: 50px;
 }
+
