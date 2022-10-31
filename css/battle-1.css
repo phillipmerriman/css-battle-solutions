@@ -36,6 +36,10 @@ body {
     overflow: hidden;
 }
 
+.number:hover {
+    filter: brightness(60%);
+}
+
 .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 100px;
@@ -52,6 +56,11 @@ body {
     color: #a3483d;
     text-shadow: 8px 8px #13181c;
     /* text-shadow: 8px 8px rgba(0, 0, 0, 0.2); */
+    text-decoration: none;
+}
+
+.subtitle:hover {
+    filter: brightness(80%);
 }
 
 
