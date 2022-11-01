@@ -37,8 +37,63 @@ body {
 }
 
 .number:hover {
-    filter: brightness(60%);
-}
+    
+    animation-name: rotateBegin;
+    animation-duration: .25s;
+    animation-delay: .15s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes rotateBegin {
+    0% {width: 400px;
+        height: 300px;
+        filter: brightness(95%);
+        transform: rotate(.5deg);
+        box-shadow: 9px 9px 3px 2px #13181c;}
+    25% {width: 410px;
+        height: 310px;
+        filter: brightness(85%);
+        transform: rotate(1deg);
+        box-shadow: 10px 10px 4px 3px #13181c;}
+    50% {width: 420px;
+        height: 320px;
+        filter: brightness(80%);
+        transform: rotate(1.5deg);
+        box-shadow: 11px 11px 5px 4px #13181c;}
+    75% {width: 425px;
+        height: 325px;
+        filter: brightness(77%);
+        transform: rotate(1deg);
+        box-shadow: 10px 10px 4px 3px #13181c;}
+    100% {width: 430px;
+        height: 330px;
+        filter: brightness(74%);
+        transform: rotate(.5deg);
+        box-shadow: 9px 9px 3px 2px #13181c;}
+  }
+  @keyframes rotateEnd {
+    0% {width: 400px;
+        height: 300px;
+        transform: rotate(.5deg);
+        box-shadow: 9px 9px 3px 2px #13181c;}
+    25% {width: 410px;
+        height: 310px;
+        transform: rotate(1deg);
+        box-shadow: 10px 10px 4px 3px #13181c;}
+    50% {width: 420px;
+        height: 320px;
+        transform: rotate(1.5deg);
+        box-shadow: 11px 11px 5px 4px #13181c;}
+    75% {width: 425px;
+        height: 325px;
+        transform: rotate(1deg);
+        box-shadow: 10px 10px 4px 3px #13181c;}
+    100% {width: 430px;
+        height: 330px;
+        transform: rotate(.5deg);
+        box-shadow: 9px 9px 3px 2px #13181c;}
+  }
 
 .title {
     font-family: 'Orbitron', sans-serif;
