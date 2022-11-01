@@ -108,12 +108,14 @@ body {
 	position: relative; /* <-- not used on site */
 }
 
-.six > div {
+/* .six > div {
 	width: 100px;
 	height: 100px;
-}
+} */
 
 .bl6 {
+    width: 100px;
+    height: 100px;
 	background: #f7f3d7;
 	border-bottom-left-radius: 100%;
 	position: absolute;
@@ -122,6 +124,8 @@ body {
 }
 
 .tl6 {
+    width: 100px;
+    height: 100px;
 	background: #51b5a9;
 	border-top-left-radius: 100%;
 	position: absolute;
@@ -130,6 +134,8 @@ body {
 }
 
 .tr6 {
+    width: 100px;
+    height: 100px;
 	background: #fade8b;
 	border-top-right-radius: 100%;
 	position: absolute;
@@ -353,3 +359,62 @@ body {
 	top: 50px;
 }
 
+
+/* NUMBER 11: EYE OF SAURON */
+
+.eleven {
+    background: #191210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.c11 {
+    background: #191210; /* <-- not used on site */
+    border-radius: 50%;
+    position: absolute;
+}
+.y11 {
+    background: #eca03d;
+}
+.p11 {
+    background: #84271c;
+    height: 50px;
+    width: 50px;
+}
+.i11 {
+    width: 100px;
+    height: 100px;
+}
+.e11 {
+    width: 140px;
+    height: 140px;
+}
+.l11 {
+    width: 60px;
+    height: 60px;
+    left: 50px;
+    border: 20px solid#ECA03D;
+}
+.r11 {
+    width: 60px;
+    height: 60px;
+    right: 50px;
+    border: 20px solid#ECA03D;
+}
+.ls11 {
+    background: #191210; /* <-- not used on site */
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+}
+.rs11 {
+    background: #191210; /* <-- not used on site */
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
